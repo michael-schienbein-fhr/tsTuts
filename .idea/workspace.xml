@@ -2,22 +2,79 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="853ce9f9-9033-4021-b786-2720e2e571d0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/annotations/arrays.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/annotations/interfaces.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/annotations/objects.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/annotations/tuples.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/annotations/variables.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ts.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/1f/5a5c37382a8f92848b6b051ee9668b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/21/4078f421c5256494fedbef49cd14e7.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/26/bc79ea9a40ec4d7be3048ea521ea36.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/2a/5a72001de3d120dd2bf61d1cef8b0b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/2d/c96b0a83a47210fd0ec69877f9de0c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/2e/12f540f4f5fe5234c799bc2df5a489.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/31/a40d9b5eeaf89682c9e8d7a98b4f5b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/3c/7eb31a234476ebef0a8fec8d0b261f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/41/87658a812820fc6bbf9b1914f39ab9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/47/23117df60e4c047db12cc0ddb1ef8e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/49/b4d5e3e246058c9e525348be57c32a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/53/43f178612f5effcd2ecc32a00f3e26.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/54/f5559e4d39acbc686fd887e57faea1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/55/54a57437bb069216982187782cd264.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/59/21d38b8eed80cd3ad4f1f5eb95a584.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/68/ca607c1e1e8bcc6cff4c32146d1c54.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/6c/555ec60c1a7faab6abaf3f5f6fb0c6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/70/34fa0b8d8bb7e8cec81a13907bf6c5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/74/793c635e70d33fd16216c01f3ca783.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/76/db57c9ef63de4d6df8a3973f25b321.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/7b/a7d60697fe38c8e73b4ce83dab8204.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/80/9237417c527e5aac3fb6e58fe7a715.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/83/094335cd0ad01d62b1f511e09c630f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/86/208b3798665e745418c3c87e4a68f2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/89/2f7f647e4087c4e5c83027e1d9ab20.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/8a/8871fa78071e4b3f360d4e0addfa6a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/94/ab88f1283e3de8285050614cd885aa.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/98/c37962beaccee2e9619802835f4732.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/99/8889f5944ead49356ad519f1a02a78.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/9d/e1c38b11bfda3dd659479d78095e1a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/9e/84f08aeca5a981bdfd05df05156393.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/a4/eea00f63e845e4b11e17ba42ac6a33.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/a6/f47b8daf910e136dddee80438c6723.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/a8/4e7a152862ce6fdfc3a869c4f6f50f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/ac/f3eef359d7b2d26015438c2a9fa289.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/ad/854a3c705f9df20cd285ae35a516c5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/b5/03ecb00c6a874bc24ca02ce52fae9e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/b5/ad9432bd6bba41e20a3c2d5dd1a6b7.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/b6/9cb23a5d2026436b79b903fbe1f26c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/c0/b6091e0ad98d0f02580e9f2f4678c8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/c3/edb2303c2276a4be15cd7e1e94269e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/c4/c63a8944957aab76a53cda68bf9a87.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/c6/a8b690bf8e2b01b5ec306a9f452f0a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/cd/143f4167ebb681bb202af843bf6a84.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/ce/53c9c3c47e5337977b2eaaf062823b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/cf/109b4618017183ade57bd3c3218f11.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/d2/ffe04622e8ae073747d071cf8ec621.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/d7/dbe946d20f2a05184b6f774f9821a2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/d8/37d06079bd079d4a1ff5256477fb8f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/d8/679ac222848e583175de1a881e1201.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/dc/77a5b12304d60e652ad811bf671dd3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/dd/dd490e0d0ed7e920dc00f3284c3393.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/de/e5f1718bbeaa4129c3d0f50409c2c1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/e0/4e8639aaeafa87fcb1e50791d2a0d8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/e2/2c27356ca64c2bab0779777f1724ab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/e3/eeb132eb215cf92b030853daf3026e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/e5/53e2a1967e30e334fd62ccf02aa700.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/e5/79bfafaaa792d941148a47cb05269c.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/e8/087ba305e042421ffbcddc51970214.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/ec/c792e71073fe45ff454749425e77e3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/f4/b9e22b7cb036f4075e9403e4cfa798.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/f7/8ed6039d5d9dfa07a50b7681792e65.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/.cache/ff/0f00cbed2d2b1d385924244e9844b0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/dist/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/dist/src.f10117fe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/dist/src.f10117fe.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/src/Company.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/src/User.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maps/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +85,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package.json" />
+        <option value="HTML File" />
         <option value="TypeScript File" />
       </list>
     </option>
@@ -37,6 +95,31 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1657891794" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1657891793" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -49,23 +132,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;js.last.introduce.type&quot;: &quot;LET&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\IntelliJ IDEA 2022.1\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "js.last.introduce.type": "LET",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "rearrange.code.on.save": "true",
+    "settings.editor.selected.configurable": "actions.on.save",
+    "ts.external.directory.path": "\\\\wsl$\\Ubuntu-20.04\\home\\fact\\OneDrive\\unix\\code\\tuts\\ts\\node_modules\\typescript\\lib"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="\\wsl$\Ubuntu-20.04\home\fact\OneDrive\unix\code\tuts\ts\src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -77,7 +167,7 @@
       <workItem from="1657364769721" duration="674000" />
       <workItem from="1657365461119" duration="3521000" />
       <workItem from="1657436438567" duration="7367000" />
-      <workItem from="1657886970527" duration="4268000" />
+      <workItem from="1657886970527" duration="14384000" />
     </task>
     <servers />
   </component>
@@ -85,13 +175,14 @@
     <option name="version" value="3" />
     <option name="exactExcludedFiles">
       <list>
-        <option value="$PROJECT_DIR$/index.js" />
-        <option value="$PROJECT_DIR$/types.js" />
         <option value="$PROJECT_DIR$/annotations/variables.js" />
         <option value="$PROJECT_DIR$/annotations/objects.js" />
         <option value="$PROJECT_DIR$/annotations/arrays.js" />
         <option value="$PROJECT_DIR$/annotations/tuples.js" />
         <option value="$PROJECT_DIR$/annotations/interfaces.js" />
+        <option value="$PROJECT_DIR$/src/maps/src/index.js" />
+        <option value="$PROJECT_DIR$/src/maps/src/User.js" />
+        <option value="$PROJECT_DIR$/src/maps/src/Company.js" />
       </list>
     </option>
   </component>
@@ -105,6 +196,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/node_modules/@types/google.maps/index.d.ts</url>
+          <line>3665</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
