@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="853ce9f9-9033-4021-b786-2720e2e571d0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/maps/.cache/6d/6d64ef0a9078d4ef4cdc70a536e770.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/maps/src/CustomMap.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sort/src/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sort/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/maps/.cache/59/21d38b8eed80cd3ad4f1f5eb95a584.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/maps/.cache/59/21d38b8eed80cd3ad4f1f5eb95a584.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/maps/dist/src.f10117fe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/maps/dist/src.f10117fe.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/maps/dist/src.f10117fe.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/maps/dist/src.f10117fe.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/maps/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/maps/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/maps/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/maps/src/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,12 +78,14 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "rearrange.code.on.save": "true",
-    "settings.editor.selected.configurable": "actions.on.save",
+    "settings.editor.selected.configurable": "settings.typescriptcompiler",
     "ts.external.directory.path": "\\\\wsl$\\Ubuntu-20.04\\home\\fact\\OneDrive\\unix\\code\\tuts\\ts\\node_modules\\typescript\\lib"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="\\wsl$\Ubuntu-20.04\home\fact\OneDrive\unix\code\tuts\ts\src\sort\build" />
+      <recent name="\\wsl$\Ubuntu-20.04\home\fact\OneDrive\unix\code\tuts\ts\src\sort\src" />
       <recent name="\\wsl$\Ubuntu-20.04\home\fact\OneDrive\unix\code\tuts\ts\src" />
     </key>
   </component>
@@ -102,7 +100,7 @@
       <workItem from="1657364769721" duration="674000" />
       <workItem from="1657365461119" duration="3521000" />
       <workItem from="1657436438567" duration="7367000" />
-      <workItem from="1657886970527" duration="19675000" />
+      <workItem from="1657886970527" duration="20282000" />
     </task>
     <servers />
   </component>
@@ -110,15 +108,10 @@
     <option name="version" value="3" />
     <option name="exactExcludedFiles">
       <list>
-        <option value="$PROJECT_DIR$/annotations/variables.js" />
-        <option value="$PROJECT_DIR$/annotations/objects.js" />
-        <option value="$PROJECT_DIR$/annotations/arrays.js" />
-        <option value="$PROJECT_DIR$/annotations/tuples.js" />
-        <option value="$PROJECT_DIR$/annotations/interfaces.js" />
-        <option value="$PROJECT_DIR$/src/maps/src/index.js" />
         <option value="$PROJECT_DIR$/src/maps/src/User.js" />
-        <option value="$PROJECT_DIR$/src/maps/src/Company.js" />
         <option value="$PROJECT_DIR$/src/maps/src/CustomMap.js" />
+        <option value="$PROJECT_DIR$/src/maps/src/index.js" />
+        <option value="$PROJECT_DIR$/src/maps/src/Company.js" />
       </list>
     </option>
   </component>
