@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="853ce9f9-9033-4021-b786-2720e2e571d0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sort/src/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sort/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demos/sort/build/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/demos/sort/build/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demos/sort/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/demos/sort/src/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +83,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="\\wsl$\Ubuntu-20.04\home\fact\OneDrive\unix\code\tuts\ts\annotations" />
       <recent name="\\wsl$\Ubuntu-20.04\home\fact\OneDrive\unix\code\tuts\ts\src\sort\build" />
       <recent name="\\wsl$\Ubuntu-20.04\home\fact\OneDrive\unix\code\tuts\ts\src\sort\src" />
       <recent name="\\wsl$\Ubuntu-20.04\home\fact\OneDrive\unix\code\tuts\ts\src" />
@@ -100,7 +100,7 @@
       <workItem from="1657364769721" duration="674000" />
       <workItem from="1657365461119" duration="3521000" />
       <workItem from="1657436438567" duration="7367000" />
-      <workItem from="1657886970527" duration="20282000" />
+      <workItem from="1657886970527" duration="21673000" />
     </task>
     <servers />
   </component>
