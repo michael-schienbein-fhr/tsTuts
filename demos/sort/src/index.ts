@@ -1,29 +1,12 @@
-// class Sorter {
-//     collection: number[];
-//
-//     constructor(public collection: number[]) {
-//         this.collection = collection;
-//     }
-// }
-class Sorter {
-    constructor(public collection: number[]) {
-    }
+import {Sorter} from './Sorter';
+import {NumbersCollection} from "./NumbersCollection";
+import {CharactersCollection} from "./CharactersCollection";
 
-    sort(): void {
-        const {length} = this.collection;
-
-        for (let i = 0; i < length; i++) {
-            for (let j = 0; j < length - i - 1; j++) {
-                if (this.collection[j] > this.collection[j + 1]) {
-                    const leftEl = this.collection[j];
-                    this.collection[j] = this.collection[j + 1];
-                    this.collection[j + 1] = leftEl;
-                }
-            }
-        }
-    }
-}
-
-const sorter = new Sorter([10, 3, -5, 0]);
+const characterCollection = new CharactersCollection('ThisIsAString');
+const numbersCollection = new NumbersCollection([10, 3, -5, 0, 99, 69]);
+const sorter = new Sorter(numbersCollection);
+const sorter2 = new Sorter(characterCollection);
 sorter.sort();
-console.log(sorter.collection);
+sorter2.sort();
+console.log(numbersCollection.data);
+console.log(characterCollection.data);
