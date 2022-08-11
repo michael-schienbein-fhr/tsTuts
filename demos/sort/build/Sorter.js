@@ -38,10 +38,15 @@
 // }
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Sorter = void 0;
+// export interface Sortable {
+//     length: number;
+//
+//     compare(leftIndex: number, rightIndex: number): boolean;
+//
+//     swap(leftIndex: number, rightIndex: number): void;
+// }
 // import {NumbersCollection} from "./NumbersCollection";
 class Sorter {
-    // constructor(public collection: Sortable) {
-    // }
     sort() {
         const { length } = this;
         for (let i = 0; i < length; i++) {

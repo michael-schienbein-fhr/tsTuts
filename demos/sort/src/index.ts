@@ -10,15 +10,18 @@ const linkedList = new LinkedList()
 linkedList.add(400);
 linkedList.add(1);
 linkedList.add(-5);
+// const sorter = new Sorter(numbersCollection);
+// const sorter2 = new Sorter(characterCollection);
+// const sorter3 = new Sorter(linkedList);
 
-const sorter = new Sorter(numbersCollection);
-const sorter2 = new Sorter(characterCollection);
-const sorter3 = new Sorter(linkedList);
-
-sorter.sort();
-sorter2.sort();
-sorter3.sort();
+// sorter.sort();
+// sorter2.sort();
+// sorter3.sort();
+characterCollection.sort();
+numbersCollection.sort();
+linkedList.sort();
 
 console.log(numbersCollection.data);
 console.log(characterCollection.data);
 linkedList.print()
+

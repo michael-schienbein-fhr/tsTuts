@@ -36,19 +36,24 @@
 //     }
 // }
 
-export interface Sortable {
-    length: number;
-
-    compare(leftIndex: number, rightIndex: number): boolean;
-
-    swap(leftIndex: number, rightIndex: number): void;
-}
+// export interface Sortable {
+//     length: number;
+//
+//     compare(leftIndex: number, rightIndex: number): boolean;
+//
+//     swap(leftIndex: number, rightIndex: number): void;
+// }
 
 // import {NumbersCollection} from "./NumbersCollection";
 
-export class Sorter {
+export abstract class Sorter {
     // constructor(public collection: Sortable) {
+    abstract length: number;
+
     // }
+    abstract compare(leftIndex: number, rightIndex: number): boolean;
+
+    abstract swap(leftIndex: number, rightIndex: number): void;
 
     sort(): void {
         const {length} = this
