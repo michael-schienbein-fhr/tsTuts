@@ -117,9 +117,87 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"src/index.ts":[function(require,module,exports) {
+})({"src/models/User.ts":[function(require,module,exports) {
+"use strict";
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); Object.defineProperty(Constructor, "prototype", { writable: false }); return Constructor; }
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.User = void 0;
+
+var User = /*#__PURE__*/function () {
+  function User(data) {
+    _classCallCheck(this, User);
+
+    this.data = data;
+    this.events = {};
+  }
+
+  _createClass(User, [{
+    key: "get",
+    value: function get(propName) {
+      return this.data[propName];
+    }
+  }, {
+    key: "set",
+    value: function set(update) {
+      Object.assign(this.data, update);
+    }
+  }, {
+    key: "on",
+    value: function on(eventName, callback) {
+      var handlers = this.events[eventName] || [];
+      handlers.push(callback);
+      this.events[eventName] = handlers;
+    }
+  }, {
+    key: "trigger",
+    value: function trigger(eventName) {
+      var handlers = this.events[eventName];
+    }
+  }]);
+
+  return User;
+}();
+
+exports.User = User;
+},{}],"src/index.ts":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var User_1 = require("./models/User");
+
 console.log('hi there');
-},{}],"../../../../../../../.nvm/versions/node/v18.5.0/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+var user = new User_1.User({
+  name: 'mooki',
+  age: 32
+});
+console.log(user.get('name'));
+console.log(user.get('age'));
+user.set({
+  name: "newName",
+  age: 999
+});
+console.log(user.get('name'));
+console.log(user.get('age'));
+user.set({
+  name: "Mooki"
+});
+console.log(user.get('name'));
+user.on('change', function () {});
+user.on('change', function () {});
+user.on('otherEvent', function () {});
+console.log(user);
+},{"./models/User":"src/models/User.ts"}],"../../../../../../../.nvm/versions/node/v18.5.0/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -147,7 +225,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "39725" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "37711" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

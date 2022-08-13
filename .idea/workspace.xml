@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="853ce9f9-9033-4021-b786-2720e2e571d0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/annotations/generics.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demos/web/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demos/web/src/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demos/web/src/models/User.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demos/stats/src/MatchReader.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demos/web/.cache/1e/fedb7323d6c208b325324dca3eaf6d.json" beforeDir="false" afterPath="$PROJECT_DIR$/demos/web/.cache/1e/fedb7323d6c208b325324dca3eaf6d.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demos/web/.cache/47/23117df60e4c047db12cc0ddb1ef8e.json" beforeDir="false" afterPath="$PROJECT_DIR$/demos/web/.cache/47/23117df60e4c047db12cc0ddb1ef8e.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demos/web/dist/src.f10117fe.js" beforeDir="false" afterPath="$PROJECT_DIR$/demos/web/dist/src.f10117fe.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demos/web/dist/src.f10117fe.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/demos/web/dist/src.f10117fe.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demos/web/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/demos/web/src/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +65,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectId" id="2BhiYvTJ7dXb1ahL19bUlvoIdqU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -113,7 +118,8 @@
       <workItem from="1657886970527" duration="36914000" />
       <workItem from="1658805082629" duration="3326000" />
       <workItem from="1660108897698" duration="785000" />
-      <workItem from="1660188164232" duration="18996000" />
+      <workItem from="1660188164232" duration="20965000" />
+      <workItem from="1660278198636" duration="5168000" />
     </task>
     <servers />
   </component>
